@@ -3,7 +3,7 @@
     grid-template: 150px 250px 150px / 33% 34% 33%;
 }
 
-.header {
+header {
     padding: 1rem;
     grid-column: 1/4;
     grid-row: 1/2;
@@ -12,17 +12,18 @@
     background-color: rgb(58, 58, 58);
 }
 
-.box {
+.navigation {
     display: flex;
     flex-direction: row;
 
     background-color: black;
 }
 
-.box div {
+.navigation a {
     align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
+    width: 25%;
+    text-align: center;
 }
 
 .main {
@@ -43,12 +44,12 @@
     background-color: white;
 }
 
-.footer {
+footer {
     padding: 1rem;
     grid-column: 1/4;
     grid-row: 3/4;
 
     color: #eeee;
     background-color: rgb(58, 58, 58);
-    ;
+    text-align: center;
 }
