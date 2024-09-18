@@ -1,4 +1,4 @@
-.grid-container {
+body {
     display: grid;
     grid-template: 150px 250px 150px / 33% 34% 33%;
 }
