@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Alex Santiago</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="./scripts/getdates.js" defer></script>
+    <meta name="author" content="Alex Santiago">
+    <meta name="description" content="This is the home page for Alex Santiago in WDD 131 - Dynamic 
+          Web Fundamentals. This page includes a description of myself and links 
+          to other important information.">
 </head>
+
 <body>
-    <h1>WDD 131 - Alex Santiago</h1>
+    <header>
+        <h1>WDD 121: Dynamic Web Fundamentals - Alex Santiago</h1>
+        <nav class="headnav">
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="#">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>My name is Alex Santiago. I was born in Buford, Georgia and I now live in
+                Rexburg, Idaho, studying cybersecurity. I live with my friends and together
+                we love hiking, fishing, snowboarding, and traveling.</p>
+            <h3>Traveling</h3>
+            <p>My roommates and I love to travel. We have been all across the country together
+                and most recently, we visited Japan. From the vast cities, the architecture,
+                the food, and hiking Mount Fuji, it was a great experience and hopefully the
+                first of many trips like this to come.
+            </p>
+            <img src="./images/japanwiththeboys.jpg" alt="Roommates in Japan">
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://www.w3schools.com/css/default.asp">W3 Schools</a></li>
+                    <li><a href="https://video.byui.edu/media/t/1_b7w4k0v0">BYUI Videos</a></li>
+                    <li><a href="https://colorhunt.co/palette/343131a04747d8a25eeedf7a">Colors</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified">MDN Web Docs</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Alex Santiago - Rexburg, ID</p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
 </body>
 </html>
