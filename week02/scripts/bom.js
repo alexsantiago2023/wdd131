@@ -10,3 +10,16 @@ deletebutton.textContent = '❌';
 
 li.append(deletebutton);
 list.append(li);
+
+button.addEventListener('click', function () {
+    if (input.value.trim() !== '') {
+        alert('Field is empty');
+    }
+    input.value = '';
+    input.focus();
+});
+
+deleteButton.addEventListener('click', function () {
+    list.removeChild(li);
+    input.focus();
+});
