@@ -7,7 +7,7 @@ header {
     font-family: 'roboto';
     padding: 1rem;
     display: grid;
-    grid-template: auto, 1fr;
+    grid-template-columns: 220px 1fr;
 }
 
 h1 {
@@ -83,12 +83,14 @@ h2 {
     font-size: 30px;
     text-align: center;
     padding-top: 1.5rem;
-    /*outline: 1px solid black;*/
 }
 
 figure {
     text-align: center;
-    /*outline: 1px solid black;*/
+}
+
+figure img {
+    width: 300px;
 }
 
 /* Footer elements * * * * * * * * * * * * * * * * * * * */
