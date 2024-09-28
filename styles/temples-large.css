@@ -1,4 +1,4 @@
-/* Header elements * * * * * * * * * */
+/* Header elements * * * * * * * * * * * * * * * * * * */
 header {
     background-color: rgb(55, 0, 88);
     color: #fff;
@@ -36,16 +36,20 @@ nav a {
     /*outline: 1px solid white;*/
 }
 
-/* Body elements * * * * * * * * * */
-main {
-    font-family: "roboto";
-    max-width: max-content;
-
+nav a:hover {
+	background-color: #000;
 }
 
-#container {
-    max-width: max-content;
-    display: flex;
+/* Body elements * * * * * * * * * * * * * * * * * * * * */
+main {
+    font-family: "roboto";
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    justify-content: center;
 }
 
 h2 {
@@ -56,7 +60,18 @@ h2 {
 }
 
 figure {
-    float: right;
     text-align: center;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
+}
+
+/* Footer elements * * * * * * * * * * * * * * * * * * * */
+footer {
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    background-color: rgb(55, 0, 88);
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
 }
