@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="./scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <meta name="description" content="Website that follows a specific wireframe and content location guide">
     <meta name="author" content="Alex Santiago">
 </head>
+
 <body>
     <header>
         <h1>Japan</h1>
     </header>
     <main>
         <picture>
-            <srcset></srcset>
-            <srcset></srcset>
-            <img href="./images/japan-hero-large.webp" alt="Mount Fuji, Japan">
+            <source media="(min-width:601px)" srcset="./images/japan-hero-medium.webp">
+            <img src="./images/japan-hero-small.webp" alt="Mount Fuji, Japan">
         </picture>
+        <div id="data">
+            <h2>Data</h2>
+            <p>Area: 145,936 sq mi</p>
+            <p>Population: 125.1 million</p>
+            <p>Capital: Tokyo</p>
+            <p>Languages: Japanese</p>
+            <p>Currency: Yen</p>
+            <p>Time Zone: Japan standard time</p>
+            <p>Calling Code: +81</p>
+            <p>Internet TLD: .jp</p>
+        </div>
+        <div id="weather">
+            <h2 id="lable">Weather ⛅</h2>
+            <img id="icon" src="./images/weather-icon.svg" alt="Weather icon">
+            <p>Temperature: 19°C</p>
+            <p>Conditions: Cloudy</p>
+            <p>Wind: 6km/h</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+        </div>
     </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Alex Santiago - Rexburg, ID</p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
 </body>
+
 </html>
