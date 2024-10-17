@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #EEEEEE;
 }
 
@@ -12,23 +12,23 @@ header {
     margin: 0 auto;
 }
 
-h1{
+h1 {
     padding: 3rem;
     margin: 3rem;
     font-size: 40px;
 }
 
 /*---------FORM---------*/
-form{
+form {
     width: 600px;
     margin: 0 auto;
     justify-content: center;
-    
+
 }
 
 fieldset {
     max-width: 600px;
-    border: rgb(211, 211, 211) solid ;
+    border: rgb(211, 211, 211) solid;
     background-color: #FFFFFF;
     font-family: "Roboto";
     font-size: 18px;
@@ -38,7 +38,7 @@ fieldset {
 
 #product {
     width: 90%;
-    height:45px;
+    height: 45px;
     font-size: 18px;
     border-radius: 3px;
     border-color: #DC5F00;
@@ -59,7 +59,7 @@ fieldset {
 #date {
 
     width: 90%;
-    height:45px;
+    height: 45px;
     font-size: 18px;
     border-radius: 3px;
     border-color: #DC5F00;
@@ -70,7 +70,7 @@ fieldset {
     padding-bottom: 15px;
 }
 
-#features  label{
+#features label {
     font-size: 14px;
 }
 
@@ -85,7 +85,7 @@ fieldset {
 
 #name {
     width: 90%;
-    height:45px;
+    height: 45px;
     font-size: 16px;
     border-radius: 3px;
     border-color: #DC5F00;
@@ -94,12 +94,12 @@ fieldset {
 
 #button {
     width: 90%;
-    height:45px;
+    height: 45px;
     font-size: 30px;
     font-family: "Inconsolata";
     border-radius: 6px;
     background-color: #EEEEEE;
-    box-shadow:3px 3px 10px #ffc69b
+    box-shadow: 3px 3px 10px #ffc69b
 }
 
 
@@ -120,4 +120,3 @@ footer p {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
