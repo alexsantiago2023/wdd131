@@ -1,0 +1,123 @@
+body{
+    background-color: #EEEEEE;
+}
+
+/*---------HEADER---------*/
+header {
+    font-family: "Inconsolata";
+    background-color: #DC5F00;
+    color: black;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 3rem;
+    margin: 3rem;
+    font-size: 40px;
+}
+
+/*---------FORM---------*/
+form{
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+fieldset {
+    max-width: 600px;
+    border: rgb(211, 211, 211) solid ;
+    background-color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+
+#product {
+    width: 90%;
+    height:45px;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: #DC5F00;
+    background-color: #ffc69b;
+}
+
+#radio-field {
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date {
+
+    width: 90%;
+    height:45px;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: #DC5F00;
+    background-color: #ffc69b;
+}
+
+#features div {
+    padding-bottom: 15px;
+}
+
+#features  label{
+    font-size: 14px;
+}
+
+#review {
+    width: 90%;
+    height: 100px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-color: #DC5F00;
+    background-color: #ffc69b;
+}
+
+#name {
+    width: 90%;
+    height:45px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-color: #DC5F00;
+    background-color: #ffc69b;
+}
+
+#button {
+    width: 90%;
+    height:45px;
+    font-size: 30px;
+    font-family: "Inconsolata";
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    box-shadow:3px 3px 10px #ffc69b
+}
+
+
+
+
+/*---------FOOTER---------*/
+footer {
+    font-family: "Inconsolata";
+    background-color: #DC5F00;
+    color: black;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+footer p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+

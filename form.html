@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="Product review form page using good form
+    design given specific field requirements.">
+    <meta name="author" content="Alex Santiago">
+    <script src="./scripts/form.js" defer></script>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <label>Product Name*<br>
+                    <select id="product" name="product" required>
+                        <option value="" disabled selected>Select a product...</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <div>Overall Rating*</div>
+                    <div id="radio-field">
+                    <div class="radio-container">
+                        <label>&star;</label><input id="1" type="radio" name="rating" required>
+                    </div>
+                    <div class="radio-container">
+                        <label>&star; &star;</label><input id="2" type="radio" name="rating" required>
+                    </div>
+                    <div class="radio-container">
+                        <label>&star; &star; &star;</label><input id="3" type="radio" name="rating" required>
+                    </div>
+                    <div class="radio-container">
+                        <label>&star; &star; &star; &star;</label><input id="4" type="radio" name="rating" required>
+                    </div>
+                    <div class="radio-container">
+                        <label>&star; &star; &star; &star; &star;</label><input id="5" type="radio" name="rating" required>
+                    </div>
+                </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Date of Installation*<br>
+                    <input id="date" type="date" name="date" required>
+                </label>
+            </fieldset>
+            <fieldset id="features">
+                <div>Which features did you find useful in the product?<br>
+                    <i>(Check all that apply)</i></div>
+                <label><input id="dura" type="checkbox" value="durability">Durability</label>
+                <label><input id="ease" type="checkbox" value="ease of Use">Ease of Use</label>
+                <label><input id="perf" type="checkbox" value="performance">Performance</label>
+                <label><input id="design" type="checkbox" value="design">Design</label>
+            </fieldset>
+            <fieldset>
+                <label>Written Review<br>
+                    <textarea id="review" name="review"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Your Name<br>
+                    <textarea id="name" name="name"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <input id="button" type="submit" value="Post Review">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Alex Santiago - Rexburg, ID</p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
