@@ -43,14 +43,17 @@ displayProducts(products)
 //Click Count * * * * * * * * *//
 // Get the button and the span that displays the click count
 const button = document.getElementById('button');
+const clicks = document.getElementById('clicks')
 
 // Get the stored value from localStorage or initialize to 0
 let clickCount = localStorage.getItem('clickCount') ? parseInt(localStorage.getItem('clickCount')) : 0;
 
 // Add a click event listener to the button
 button.addEventListener('click', () => {
+
     // Increment the click count
     clickCount++;
+    clicks.textContent = clickCount;
 
     // Store the updated click count in localStorage
     localStorage.setItem('clickCount', clickCount);

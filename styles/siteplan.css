@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    padding: 3rem;
+    background-color: #C4E1F6;
+    color: #091057;
+    font-family: "Averia Serif Libre";
+    font-size: 40px;
+}
+
+#words{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #091057;
+    font-family: "Averia Serif Libre";
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-family: "Roboto";
+    padding-bottom: 1rem;;
+}
+
+#hfont{
+    font-family: "Averia Serif Libre";
+    font-size: 30px;
+}
+
+#pfont{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+#pic{
+    margin: 0 auto;
+    max-width: 675px;
+}
