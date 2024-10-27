@@ -1,0 +1,120 @@
+
+/* Header * * * * * * * * * * * * * */
+h1 {
+    text-align: center;
+    padding: 3rem;
+    max-width: 100%;
+    background-color: #C4E1F6;
+    color: #091057;
+    font-family: "Averia Serif Libre";
+    font-size: 50px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-left: 0%;
+    padding-bottom: 3%;
+}
+
+nav li {
+    flex: 1 1 100%;
+}
+
+nav a {
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    font-family: "Averia Serif Libre";
+    background-color: #091057;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+    border: solid 1px;
+    border-top: solid 3px;
+}
+
+nav a:hover {
+    color: #091057;
+    background-color: #dadada;
+    border: #ffffff;
+}
+
+
+
+/* Body * * * * * * * * * * * * * * */
+#container {
+     display: grid;
+     grid-template: 1fr / 50% 50%;
+     grid-gap: 10px;
+}
+
+#words {
+    background-color: #dadada;
+}
+
+#words h2 {
+    font-family: "Averia Serif Libre";
+    font-size: 40px;
+    text-align: center;
+}
+
+#words h3 {
+    font-family: "Averia Serif Libre";
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 2.5rem;
+}
+#words p {
+    font-family: "Roboto";
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 75%;
+}
+
+#snowboarder {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Footer * * * * * * * * * * * * * * */
+footer {
+    text-align: center;
+    padding: 2rem;
+    max-width: 100%;
+    background-color: #C4E1F6;
+    color: #091057;
+    font-family: "Averia Serif Libre";
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for devices with width 600px and below */
+@media (max-width: 600px) {
+
+    #container {
+        grid-template: 1fr 1fr / 100%;
+    }
+}
